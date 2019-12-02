@@ -46,6 +46,8 @@ body {
       flex-wrap: wrap;
   -ms-flex-pack: end;
       justify-content: flex-end;
+  right: 0;
+  transform: translateX(50%);
   margin-left: 150px;
   margin-bottom: 0;
   float: right;
