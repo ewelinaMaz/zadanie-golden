@@ -13,7 +13,7 @@ body {
 
 /*page-intro*/
 .splash-nav {
-  background-image: url("https://i.postimg.cc/0Q0wczNC/tablet.png");
+  background-image: url("../images/tablet.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -183,34 +183,6 @@ body {
   margin-left: auto;
 }
 
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.col-12 {
-  -ms-flex: 0 0 100%;
-      flex: 0 0 100%;
-  max-width: 100%;
-  margin: 15px 20px;
-  -ms-flex-align: center;
-      align-items: center;
-}
-
-.col-4 {
-  -ms-flex: 0 0 30%;
-      flex: 0 0 30%;
-  max-width: 30%;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -238,8 +210,6 @@ img {
 .row-mt {
   margin-top: 45px;
   vertical-align: middle;
-  margin-right: 40px;
-  margin-left: 40px;
 }
 
 .card-body {
@@ -255,14 +225,6 @@ img {
 }
 
 /*footer*/
-.col-8 {
-  -ms-flex: 0 0 66.666667%;
-      flex: 0 0 66.666667%;
-  max-width: 66.666667%;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
-
 .text-footer {
   margin-left: 60px;
   font-size: 10px;
@@ -305,18 +267,6 @@ footer i {
     margin: 0 auto;
     padding: 0 20px;
   }
-  .col-sm-auto {
-    -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-    width: auto;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-  .col-sm-5 {
-    -ms-flex: 0 0 41.666667%;
-        flex: 0 0 41.666667%;
-    max-width: 41.666667%;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -327,22 +277,10 @@ footer i {
   .features-wrapper {
     display: block;
   }
-  .col-md-auto {
-    -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-    width: auto;
-    max-width: 100%;
-    margin: 0 auto;
-  }
   .feature {
     -ms-flex: 0 0 100%;
         flex: 0 0 100%;
     max-width: 100%;
-  }
-  .col-md-5 {
-    -ms-flex: 0 0 41.666667%;
-        flex: 0 0 41.666667%;
-    max-width: 41.666667%;
   }
 }
 /*# sourceMappingURL=style.css.map */

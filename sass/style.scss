@@ -19,7 +19,7 @@ line-height: 1.7;
 
 /*page-intro*/
 .splash-nav {
-  background-image: url("https://i.postimg.cc/0Q0wczNC/tablet.png");
+  background-image: url("../images/tablet.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -79,7 +79,6 @@ margin-right: 30px;
   padding-top: 0;
   padding-bottom: 0;
 }
-
 .main-title {
   position: relative;
   text-align: center;
@@ -151,36 +150,17 @@ margin-right: 30px;
   letter-spacing:1px;
   margin: 24px 0 0 0;
   padding: 0 24px;
-}
+ }
 /*Portfolio*/
 .Portfolio {
   background: #F8F8EF;
-}
+ }
 .container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  align-content:center;
-}
-.col-12 {
-  flex: 0 0 100%;
-  max-width: 100%;
-  margin: 15px 20px;
-  align-items: center;
-}
-.col-4 {
-  flex: 0 0 30%;
-  max-width: 30%;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 .card {
   position: relative;
@@ -203,8 +183,6 @@ img {
 .row-mt {
   margin-top: 45px;
   vertical-align: middle;
-  margin-right: 40px;
-  margin-left: 40px;
 }
 .card-body {
   flex: 1 1 auto;
@@ -216,11 +194,6 @@ img {
   text-align: center;
 }
 /*footer*/
-.col-8 {
-  flex: 0 0 66.666667%;
-  max-width: 66.666667%;
-  justify-content: center;
-}
 .text-footer {
   margin-left: 60px;
   font-size: 10px;
@@ -260,16 +233,6 @@ footer i {
   margin: 0 auto;
   padding: 0 20px;
   }
-.col-sm-auto {
-  flex: 0 0 auto;
-  width: auto;
-  max-width: 100%;
-  margin: 0 auto;
-   }
-.col-sm-5 {
-  flex: 0 0 41.666667%;
-  max-width: 41.666667%;
-  }
 }
   @media (min-width: 768px) and (max-width: 991px) {
 .main-subtitle {
@@ -279,18 +242,8 @@ footer i {
 .features-wrapper {
   display: block;
   }
-.col-md-auto {
-  flex: 0 0 auto;
-  width: auto;
-  max-width: 100%;
-  margin: 0 auto;
-  }
  .feature {
   flex: 0 0 100%;
   max-width: 100%;
-  }
-.col-md-5 {
-  flex: 0 0 41.666667%;
-  max-width: 41.666667%;
   }
 }
