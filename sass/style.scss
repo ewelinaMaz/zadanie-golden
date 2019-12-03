@@ -215,3 +215,27 @@ img {
   position: relative;
   text-align: center;
 }
+/*footer*/
+.col-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+  justify-content: center;
+}
+.text-footer {
+  margin-left: 60px;
+  font-size: 10px;
+  font-weight: lighter;
+  font-family: $font-text;
+}
+footer i {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  color: #000000;
+  font-size: 20px;
+  background-color: $color-light;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
